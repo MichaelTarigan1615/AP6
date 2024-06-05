@@ -5,7 +5,7 @@ int main() {
     int nim;
     char kom;
     float ip;
-    char nama[50];
+    char nama[50];//memberi batas maksimal untuk char nama sebanyak 50 karakter
     system("cls");
 
     printf("Hello, World!\n");
@@ -26,11 +26,10 @@ int main() {
     
     //printf("Nama: %s\n", nama);
     printf("Nama: ");
-    puts(nama);
+    puts(nama);//menampilkan nama yang sudah diinput termasuk newline
     printf("NIM : %d\n", nim);
     printf("KOM : %c\n", kom);
     printf("IP  : %.2f", ip);
     
-  
     getchar();
 }
